@@ -1,5 +1,22 @@
+REM ######################################################
+REM #                                                    |
+REM # Title        : Iniciate a YouTube Video            |
+REM # Author       : Meepmaster360                       |
+REM # Version      : 1.0                                 |
+REM # Category     : Prank                               |
+REM # Target       : Windows 10-11                       |
+REM #                                                    |
+REM ######################################################
+
+
+REM Requirements:
+REM     - Internet Connection
+REM     - Chrome Instaled
+REM     - 
+
 REM Initiate a Youtube Video
 REM Basically it enters chrome and rickrolls with no ads
+
 GUI
 DELAY 2000
 STRING Chrome
