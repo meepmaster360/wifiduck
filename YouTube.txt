@@ -5,6 +5,7 @@ REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Prank                               |
 REM # Target       : Windows 10-11                       |
+REM # Tested       :                                     |
 REM #                                                    |
 REM ######################################################
 
