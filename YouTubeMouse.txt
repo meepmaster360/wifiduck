@@ -1,6 +1,6 @@
 REM ######################################################
 REM #                                                    |
-REM # Title        : YouTube-TripWire                    |
+REM # Title        : YouTube-TripWire-Mouse              |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Prank                               |
