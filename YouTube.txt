@@ -14,6 +14,11 @@ REM     - Internet Connection
 REM     - Chrome Instaled
 REM     - 
 
+REM Layout Portuguese Keys
+REM Chose The Correct Layout: 
+REM LOCALE 
+LOCALE PT
+
 REM Initiate a Youtube Video
 REM Basically it enters chrome and rickrolls with no ads
 
