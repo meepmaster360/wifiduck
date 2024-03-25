@@ -11,18 +11,3 @@ YouTube
 7. Type the URL "https://www.youtube.com/watch?v=xvFZjo5PgG0"
 8. Press Enter
 
-In Python:
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
-
-# Open Chrome
-driver = webdriver.Chrome()
-
-# Wait for Chrome to open
-time.sleep(2)
-
-# Open YouTube link
-driver.get("https://www.youtube.com/watch?v=xvFZjo5PgG0")
-
-#########################################################
