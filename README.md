@@ -1,9 +1,21 @@
 # WifiDuck 
 
-<p align="center">
-<img alt="WiFi Duck Logo" src="/home/meepmaster/scripts/github/wifiduck/Image/image.png" width="640">
-</p>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WiFi Duck Logo</title>
+</head>
+<body>
+  <div style="text-align:center;">
+    <img alt="WiFi Duck Logo" src="Image/image.png" width="640">
+  </div>
+</body>
+</html>
+
+#
 
 1. Plug in your WiFi Duck
 2. Connect to the WiFi network `wifiduck` with the password `wifiduck`
