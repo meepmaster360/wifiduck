@@ -180,39 +180,30 @@ Now open 2 instances of Arduino (so they run as separate processes!),
 select the COM port and open the serial monitor for each device.
 You might need to reset the Atmega32u4 to see serial output.
 If that causes problems with the i2c connection, try to reset the ESP8266 too.  
-## Development
 
-### Edit Web Files
 
-If you would like to modify the web interface, you can!  
-The `web/` folder contains all `.html`, `.css`, `.js` files.  
-You can edit and test them locally as long as you're connected to the WiFi Duck
-network thanks to the websocket connection handled by JavaScript in the background.  
-
-To get the new files onto the ESP8266, run `python3 webconverter.py` in the
-repository folder.  
-It gzips all files inside `web/`, converts them into a hex array
-and saves it in `esp_duck/webfiles.h`.  
-Now you just need to [flash](#flash-software) the ESP8266 again.  
-
-### Translate Keyboard Layout
+### Translate Keyboard Layout ###
+#
 
 Currently supported keyboard layouts:  
-- [:de: DE](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_de.h)
-- [:gb: GB](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_gb.h)
-- [:us: US](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_us.h)
-- [:es: ES](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_es.h)
-- [:denmark: DK](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_dk.h)
-- [:ru: RU](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_ru.h)
-- [:fr: FR](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_fr.h)
-- [:belgium: BE](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_be.h)
-- [:portugal: PT](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_pt.h)
-- [:it: IT](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_it.h)
-- [:slovakia: SK](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_sk.h)
-- [:czech_republic: CZ](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_cz.h)
-- [:slovenia: SI](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_si.h)
-- [:bulgaria: BG](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_bg.h)
-- [:canada: CA-FR](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_cafr.h)
-- [:switzerland: CH-DE](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_chde.h)
-- [:switzerland: CH-FR](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_chfr.h)
-- [:hungary: HU](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_hu.h)
+---
+```
+- [:de: DE]
+- [:gb: GB]
+- [:us: US]
+- [:es: ES]
+- [:denmark: DK]
+- [:ru: RU]
+- [:fr: FR]
+- [:belgium: BE]
+- [:portugal: PT]
+- [:it: IT]
+- [:slovakia: SK]
+- [:czech_republic: CZ]
+- [:slovenia: SI]
+- [:bulgaria: BG]
+- [:canada: CA-FR]
+- [:switzerland: CH-DE]
+- [:switzerland: CH-FR]
+- [:hungary: HU]
+```
