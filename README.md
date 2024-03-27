@@ -10,7 +10,7 @@
 </head>
 <body>
   <div style="text-align:center;">
-    <img alt="WiFi Duck Logo" src="Image/image.png" width="640">
+    <img alt="WiFi Duck Logo" src="Image/image1.png" width="640">
   </div>
 </body>
 </html>
