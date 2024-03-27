@@ -1,12 +1,12 @@
 # WifiDuck 
 
 
+#
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WiFi Duck Logo</title>
 </head>
 <body>
   <div style="text-align:center;">
@@ -23,6 +23,7 @@
 4. Write, save and run your first Ducky Script
 5. [Recommended] Open `Settings` (top right corner) and update SSID and password
 
+#
 #
 
 # WifiDuck payloads
