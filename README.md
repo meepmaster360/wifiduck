@@ -1,5 +1,6 @@
 # WifiDuck 
 #
+WifiDuck involves combining WiFi capabilities with USB Rubber Ducky payloads. This could mean a device or setup that allows for executing USB Rubber Ducky payloads over a WiFi connection instead of a direct USB connection.
 #
 <!DOCTYPE html>
 <html lang="en">
