@@ -1,0 +1,25 @@
+REM ######################################################
+REM #                                                    |
+REM # Title        : Iniciate a YouTube Video            |
+REM # Author       : Meepmaster360                       |
+REM # Version      : 1.0                                 |
+REM # Category     : Prank                               |
+REM # Target       : Linux                               |
+REM # Tested       :                                     |
+REM # Date         : 27/3/2024                           |
+REM #                                                    |
+REM ######################################################
+
+
+REM Requirements:
+REM     - Internet Connection
+REM     - Chrome Instaled
+REM     - 
+
+REM Layout Portuguese Keys
+REM Chose The Correct Layout: 
+REM LOCALE 
+LOCALE PT
+
+REM Initiate a Youtube Video
+REM Basically it enters chrome and rickrolls with no ads
