@@ -3,7 +3,7 @@ REM #                                                    |
 REM # Title        : Iniciate a YouTube Video            |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
-REM # Category     : Prank                               |
+REM # Category     : Hacking                             |
 REM # Target       : Linux                               |
 REM # Tested       :                                     |
 REM # Date         : 27/3/2024                           |
