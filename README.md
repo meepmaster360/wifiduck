@@ -23,9 +23,20 @@ WifiDuck involves combining WiFi capabilities with USB Rubber Ducky payloads. Th
 4. Write, save and run your first Ducky Script
 5. [Recommended] Open `Settings` (top right corner) and update SSID and password
 
-#
-#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div style="text-align:center;">
+    <img alt="WiFi Duck Logo" src="Image/image2.gif" width="640">
+  </div>
+</body>
+</html>
 
+#
 # WifiDuck payloads
 
 WifiDuck is a project that enables the creation of USB Rubber Ducky payloads that can be executed wirelessly over Wi-Fi. The project typically involves using a microcontroller like the ESP8266 to act as a bridge between a Wi-Fi network and a USB Rubber Ducky device. This setup allows for remote execution of payloads, making it particularly useful for penetration testing and ethical hacking scenarios.
@@ -33,20 +44,21 @@ WifiDuck is a project that enables the creation of USB Rubber Ducky payloads tha
 Payloads for WifiDuck can be crafted similarly to traditional USB Rubber Ducky payloads, but they are adapted to work with the wireless capabilities provided by the ESP8266 or similar devices. The payloads are written in a scripting language that the microcontroller can understand and execute.
 
 Payloads for WifiDuck can be much more complex and can include a variety of actions, such as keystroke injections, file manipulation, network reconnaissance, and more, depending on the goals of the penetration test or the scenario being simulated. However, it's essential to use such tools responsibly and ethically, respecting laws and regulations governing cybersecurity testing and research.
-#
 
-YouTube.txt
+# Payloads
+
+### YouTube.txt
 
 This script essentially automates the process of opening Chrome, navigating to a specific YouTube video. 
 However, it's worth noting that such automation scripts should be used responsibly and with respect to the terms of service of the services being automated.
 
-PythonExploit.txt
+### PythonExploit.txt
 
 This payload script aims to execute a Python HTTP server exploit by leveraging PowerShell. It's important to note that this script assumes the target system has Python 3 installed. 
 However, it's worth noting that such automation scripts should be used responsibly and with respect to the terms of service of the services being automated.
 #
 
-## Scripting
+# Scripting
 
 ### Basics
 
@@ -190,7 +202,7 @@ You might need to reset the Atmega32u4 to see serial output.
 If that causes problems with the i2c connection, try to reset the ESP8266 too.  
 
 
-### Translate Keyboard Layout ###
+### Translated Keyboard Layout ###
 #
 
 Currently supported keyboard layouts:  
