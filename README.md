@@ -31,7 +31,7 @@ WifiDuck involves combining WiFi capabilities with USB Rubber Ducky payloads. Th
 </head>
 <body>
   <div style="text-align:center;">
-    <img alt="WiFi Duck Logo" src="Image/image2.gif" width="640">
+    <img alt="BadUSB HotPlug" src="Image/image2.gif" width="640">
   </div>
 </body>
 </html>
