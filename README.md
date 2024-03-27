@@ -11,3 +11,4 @@ PythonExploit.txt
 This payload script aims to execute a Python HTTP server exploit by leveraging PowerShell. It's important to note that this script assumes the target system has Python 3 installed. 
 However, it's worth noting that such automation scripts should be used responsibly and with respect to the terms of service of the services being automated.
 
+teste-remove
