@@ -1,6 +1,5 @@
 # WifiDuck 
-
-
+#
 #
 <!DOCTYPE html>
 <html lang="en">
