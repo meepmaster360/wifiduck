@@ -1,6 +1,8 @@
 # WifiDuck 
 
-print image.pn![g](https://github.com/meepmaster360/wifiduck/blob/main/Image/image.png)
+<p align="center">
+<img alt="WiFi Duck Logo" src="/home/meepmaster/scripts/github/wifiduck/Image/image.png" width="640">
+</p>
 
 
 1. Plug in your WiFi Duck
