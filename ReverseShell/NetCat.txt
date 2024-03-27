@@ -1,10 +1,10 @@
 REM ######################################################
 REM #                                                    |
-REM # Title        : Iniciate a YouTube Video            |
+REM # Title        : Iniciate a ReverseShell             |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Hacking                             |
-REM # Target       : Linux                               |
+REM # Target       : Linux/Windown/Mac                   |
 REM # Tested       :                                     |
 REM # Date         : 27/3/2024                           |
 REM #                                                    |
@@ -13,7 +13,7 @@ REM ######################################################
 
 REM Requirements:
 REM     - Internet Connection
-REM     - Chrome Instaled
+REM     - NetCat (nc) Instaled
 REM     - 
 
 REM Layout Portuguese Keys
