@@ -13,10 +13,43 @@ REM ######################################################
 
 REM Requirements:
 REM     - Internet Connection
-REM     - Chrome Instaled
+REM     - 
 REM     - 
 
 REM Layout Portuguese Keys
 REM Chose The Correct Layout: 
 REM LOCALE 
 LOCALE PT
+
+REM TESTE LINUX
+
+REM Pausa para captar usb
+DELAY 2000
+
+REM Abrir Aplicações
+GUI
+
+DELAY 500
+
+STRING terminal
+ENTER
+
+REM TERMINAL
+
+DELAY 1000
+STRING Este é um teste para experimentar o terminal.
+REPEAT 10
+DELAY 3000
+ENTER
+STRING clear
+ENTER
+DELAY 500
+STRING Bye! 
+REPEAT 5
+DELAY 2000
+
+ENTER
+STRING exit
+ENTER
+
+REM Final de script
