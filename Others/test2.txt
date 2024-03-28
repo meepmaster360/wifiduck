@@ -1,10 +1,10 @@
 REM ######################################################
 REM #                                                    |
-REM # Title        : Iniciate a YouTube Video            |
+REM # Title        : Iniciate Terminal                   |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
-REM # Category     : Prank                               |
-REM # Target       : Windows 10-11                       |
+REM # Category     : Other                               |
+REM # Target       : Linux                               |
 REM # Tested       :                                     |
 REM # Date         : 25/3/2024                           |
 REM #                                                    |
@@ -13,10 +13,88 @@ REM ######################################################
 
 REM Requirements:
 REM     - Internet Connection
-REM     - Chrome Instaled
+REM     - 
 REM     - 
 
 REM Layout Portuguese Keys
 REM Chose The Correct Layout: 
 REM LOCALE 
 LOCALE PT
+
+REM TEST FOR LINUX
+REM Basic Commands for Linux
+
+REM Pause for Usb capture
+DELAY 2000
+
+REM Open Menu
+REM This comment indicates the intention to open a menu
+REM The "GUI" command simulates pressing the GUI (Windows) key, which typically opens the Start menu or equivalent
+GUI
+DELAY 500
+
+REM Terminal
+STRING terminal
+ENTER
+DELAY 1000
+
+REM Commands Linux
+
+REM touch — Creates a file
+REM touch is going to be the easiest way to create new files, but it can also be used to change timestamps on files and/or directories. You can create as many files as you want in a single command without worrying about overwriting files with the same name.
+REM Syntax: touch [option(s)] file_name(s)
+REM Common options: -a, -m, -r, -d
+REM To create multiple files at the same time, separate the file names by space.
+STRING touch example1.txt example2.txt example3.doc
+DELAY 500
+ENTER
+DELAY 1000
+STRING clear
+ENTER
+
+REM ls — List directory contents
+REM ls is probably the most common command. A lot of times, you’ll be working in a directory and you’ll need to know what files are located there. The ls command allows you to quickly view all files within the specified directory.
+REM Syntax: ls [option(s)] [file(s)]
+REM Common options: -a, -l
+STRING ls
+DELAY 500
+ENTER
+DELAY 1000
+STRING clear
+ENTER
+REM You could use ls to list all these files by adding a wild card. What’s a wild card? Wild cards allow you to search for files given certain criteria.
+REM The asterisk * wild card allows you to match instances of a character. To view all the text files in Donuts, use:
+STRING ls *".txt"
+DELAY 500
+ENTER
+DELAY 1000
+STRING clear
+ENTER
+
+REM mkdir — Create a directory
+REM mkdir is a useful command you can use to create directories. Any number of directories can be created simultaneously which can greatly speed up the process.
+REM Syntax: mkdir [option(s)] directory_name(s)
+REM Common options: -m, -p, -v
+STRING mkdir example
+DELAY 500
+ENTER
+STRING ls
+DELAY 1000
+STRING clear
+ENTER
+
+REM cd — Change directory
+REM cd will change the directory you’re in so that you can get info, manipulate, read, etc. the different files and directories in your system.
+REM Syntax: cd [option(s)] directory
+REM Common options: options aren’t typically used with cd
+STRING cd example
+DELAY 500
+ENTER
+DELAY 1000
+STRING clear
+ENTER
+
+REM End of Script
+
+REM https://www.educative.io/blog/linux-command-line-tutorial
+REM https://www.educative.io/blog/bash-shell-command-cheat-sheet
