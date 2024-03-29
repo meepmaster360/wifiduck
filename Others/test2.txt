@@ -94,6 +94,21 @@ DELAY 1000
 STRING clear
 ENTER
 
+REM pwd — Print working directory
+REM pwd is used to print the current directory you’re in. As an example, if you have multiple terminals going and you need to remember the exact directory you’re working within, then pwd will tell you.
+REM Syntax: pwd [option(s)]
+REM Common options: options aren’t typically used with pwd
+REM When you launch the terminal, you are in the home directory of your user. This usually looks something like “/home/username”. The pwd, print working directory command lets you know which directory you are in.
+REM The path it gives is the absolute path. The absolute path starts from the root, which is the base of the Linux file system. This is denoted by the slash /.
+STRING pwd
+DELAY 500
+ENTER
+DELAY 2000
+STRING clear
+ENTER
+
+
+
 REM End of Script
 
 REM https://www.educative.io/blog/linux-command-line-tutorial
