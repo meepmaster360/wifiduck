@@ -126,10 +126,10 @@ REM Common options: -e, -n
 STRING echo “contents of file1” > example1.txt
 DELAY 500
 ENTER
-STRING echo “contents of file1” > exemple2.txt
+STRING echo “contents of file2” > exemple2.txt
 DELAY 500
 ENTERS
-STRING echo “contents of file1” > exemple3.doc
+STRING echo “contents of file3” > exemple3.doc
 DELAY 500
 ENTER
 DELAY 2000
