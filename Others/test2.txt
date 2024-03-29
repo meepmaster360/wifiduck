@@ -91,6 +91,14 @@ REM cd — Change directory
 REM cd will change the directory you’re in so that you can get info, manipulate, read, etc. the different files and directories in your system.
 REM Syntax: cd [option(s)] directory
 REM Common options: options aren’t typically used with cd
+REM You can switch back to your previous directory using:
+REM cd-
+REM Your parent directory is the directory immediately above the current one. To navigate to your parent directory, use:
+REM cd ..
+REM To move up two levels use:
+REM cd ../../
+REM To navigate to your home directory, use:
+REM cd ~
 STRING cd example
 DELAY 500
 ENTER
@@ -136,7 +144,54 @@ DELAY 2000
 STRING clear
 ENTER
 
+REM cat — Read a file, create a file, and concatenate files
 
+REM cat is one of the more versatile commands and serves three main functions: displaying them, combining copies of them, and creating new ones.
+REM cat — Read a file, create a file, and concatenate files
+REM cat is one of the more versatile commands and serves three main functions: displaying them, combining copies of them, and creating new ones.
+STRING cat example1.txt
+DELAY 500
+ENTER
+DELAY 2000
+STRING clear
+ENTER
+
+REM rmdir — Remove directory
+
+REM rmdir will remove empty directories. This can help clean up space on your computer and keep files and folders organized. It’s important to note that there are two ways to remove directories: rm and rmdir. The distinction between the two is that rmdir will only delete empty directories, whereas rm will remove directories and files regardless if they contain data or not.
+REM Syntax: rmdir [option(s)] directory_names
+REM Common options: -p -r 
+STRING cd ..
+DELAY 500
+ENTER
+DELAY 2000
+STRING rm -r ./example
+DELAY 500
+ENTER
+DELAY 2000
+STRING clear
+ENTER
+
+REM history — list your most recent commands
+
+REM An important command when you need to quickly identify past commands that you’ve used.
+REM Syntax: history
+REM Common options: -c, -d
+STRING cat history
+DELAY 500
+ENTER
+DELAY 3000
+STRING clear
+ENTER
+
+REM exit — Exit out of a home directory
+
+REM The exit command will close a terminal window, end the execution of a shell script, or log you out of an SSH remote access session.
+REM Syntax: exit
+REM Common options: n/a
+STRING exit
+DELAY 1000
+ENTER
 
 REM End of Script
 
