@@ -5,15 +5,15 @@ REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Prank                               |
 REM # Target       : Windows 10-11                       |
-REM # Tested       : Not tested                            |
-REM # Date         : 25/3/2024                           |
+REM # Tested       : Not tested                          |
+REM # Date         : 29/3/2024                           |
 REM #                                                    |
 REM ######################################################
 
 
 REM Requirements:
 REM     - Internet Connection
-REM     - Chrome Instaled
+REM     - Firefox Instaled
 REM     - 
 
 REM Layout Portuguese Keys
@@ -26,7 +26,7 @@ REM Basically it enters chrome and rickrolls with no ads
 
 GUI
 DELAY 2000
-STRING Chrome
+STRING firefox
 DELAY 2000
 ENTER
 DELAY 2000
