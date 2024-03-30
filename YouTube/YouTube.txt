@@ -4,8 +4,8 @@ REM # Title        : Iniciate a YouTube Video            |
 REM # Author       : Meepmaster360                       |
 REM # Version      : 1.0                                 |
 REM # Category     : Prank                               |
-REM # Target       : Windows 10-11                       |
-REM # Tested       : Not tested                            |
+REM # Target       : Windows 10-11 / Linux               |
+REM # Tested       : Tested                              |
 REM # Date         : 25/3/2024                           |
 REM #                                                    |
 REM ######################################################
